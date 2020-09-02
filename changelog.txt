@@ -1,0 +1,8 @@
+/develop
+
+0.1.0
+    + Add types:
+        + Routines - Faciliates program synchronization; similar to context.Context
+            but with shutdown ordering.
+        + Service - Faciliates creating proper services with Start() and Stop() methods
+            whose behavior is defined by the package documentation.
